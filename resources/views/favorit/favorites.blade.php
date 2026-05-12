@@ -44,11 +44,11 @@
               <section class="section">
 
 <div class="section-header">
-<h1>My Favorites</h1>
+<h1>{{ __('favorites.my_favorites') }}</h1>
 
 <div class="section-header-breadcrumb">
-<div class="breadcrumb-item"><a href="#">Dashboard</a></div>
-<div class="breadcrumb-item active">Favorites</div>
+<div class="breadcrumb-item"><a href="#">{{ __('favorites.dashboard') }}</a></div>
+<div class="breadcrumb-item active">{{ __('favorites.favorites') }}</div>
 </div>
 
 </div>
@@ -58,19 +58,19 @@
 <div class="card">
 
 <div class="card-header">
-<h4>Favorite Movies</h4>
+<h4>{{ __('favorites.favorite_movies') }}</h4>
 </div>
 
 <div class="card-body text-center">
 
 
-<h5 class="text-muted">No favorites yet</h5>
+<h5 class="text-muted">{{ __('favorites.no_favorites') }}</h5>
 
-<p>Start adding movies to your favorites list!</p>
+<p>{{ __('favorites.start_adding') }}</p>
 
-<a href="/movies" class="btn btn-primary">
+<a href="/search" class="btn btn-primary">
 <i class="fas fa-search"></i>
-Search Movies
+{{ __('favorites.search_movies') }}
 </a>
 
 

@@ -42,11 +42,11 @@
               <section class="section">
 
               <div class="section-header">
-              <h1>Movies</h1>
+              <h1>{{ __('dashboard.movies') }}</h1>
               <div class="section-header-breadcrumb">
-              <div class="breadcrumb-item"><a href="#">Dashboard</a></div>
-              <div class="breadcrumb-item"><a href="#">Movies</a></div>
-              <div class="breadcrumb-item active">All Movies</div>
+              <div class="breadcrumb-item"><a href="#">{{ __('dashboard.dashboard') }}</a></div>
+              <div class="breadcrumb-item"><a href="#">{{ __('dashboard.movies') }}</a></div>
+              <div class="breadcrumb-item active">{{ __('dashboard.all_movies') }}</div>
               
               </div>
               </div>
@@ -56,13 +56,13 @@
               <div class="card">
 
               <div class="card-header">
-              <h4>All Movies</h4>
+              <h4>{{ __('dashboard.all_movies') }}</h4>
               
 
               <div class="card-header-form">
               <form>
               <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search movies...">
+              <input type="text" class="form-control" placeholder="{{ __('dashboard.search_placeholder') }}">
               <div class="input-group-btn">
               <button class="btn btn-primary">
               <i class="fas fa-search"></i>
@@ -82,11 +82,11 @@
 
               <thead>
               <tr>
-              <th>Poster</th>
-              <th>Title</th>
-              <th>Year</th>
-              <th>Type</th>
-              <th>Action</th>
+              <th>{{ __('dashboard.poster') }}</th>
+              <th>{{ __('dashboard.title') }}</th>
+              <th>{{ __('dashboard.year') }}</th>
+              <th>{{ __('dashboard.type') }}</th>
+              <th>{{ __('dashboard.action') }}</th>
               </tr>
               </thead>
 
@@ -98,7 +98,7 @@
               <i class="fas fa-search fa-2x mb-2"></i>
               <br>
 
-              Enter a keyword to search movies.
+              {{ __('dashboard.search_hint') }}
 
               </td>
               </tr>
